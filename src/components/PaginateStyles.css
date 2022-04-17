@@ -1,0 +1,36 @@
+.page {
+  display: flex;
+  flex-direction: row;
+  border: 2px;
+  background-color: #d3d3d3;
+  border-color: black;
+  margin-left: 1vh;
+  margin-right: 1vh;
+}
+
+.page-link {
+  padding: 1vh;
+  border-radius: 5px;
+  font-size: medium;
+}
+
+.pagination {
+  margin-top: 2vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: start;
+}
+
+.buttonStyle {
+  background-color: #d3d3d3;
+  border-radius: 5px;
+  border-width: 0px;
+  padding: 1vh;
+  /* padding-left: 1vh;
+  padding-right: 1vh; */
+}
+
+.pageNo {
+  margin-left: 1vh;
+}

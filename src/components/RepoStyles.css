@@ -1,0 +1,26 @@
+.gridContainer {
+  height: "75vh";
+  overflow: "auto";
+  flex-direction: column;
+}
+
+.name {
+  text-decoration: underline;
+}
+
+.subtitle {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: start;
+  margin-top: 10px;
+  padding-top: 2vh;
+}
+
+.fork {
+  margin-left: 5vh;
+}
+
+.language {
+  margin-left: 5vh;
+}

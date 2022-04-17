@@ -1,0 +1,36 @@
+.container {
+  display: flex;
+  flex-direction: "row";
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 5vh;
+}
+
+.inputContainer {
+  display: flex;
+  flex-direction: "row";
+}
+
+.input {
+  background-color: #e8eaed;
+  border-radius: 5px;
+  padding-left: 2vh;
+  width: 40%;
+}
+
+.inputl {
+  background-color: #e8eaed;
+  border-radius: 5px;
+  padding-left: 2vh;
+  margin-left: 7px;
+}
+
+.selectContainer {
+  display: flex;
+  flex-direction: row-reverse;
+  width: 40%;
+}
+
+.form {
+  width: 45%;
+}
